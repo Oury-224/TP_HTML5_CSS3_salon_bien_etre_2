@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Prise de rendez-vous</title>
+</head>
+
+<body>
+
+    <h2>Salon Bien être</h2>
+
+    <form action="#" method="post">
+
+        <fieldset>
+
+            <legend>Client</legend>
+
+            <p>
+                <input type="text" class="nom" autofocus placeholder="Nom" name="nom">
+            </p>
+
+            <p>
+                <input type="text" class="nom" placeholder="Prénom" name="prenom">
+            </p>
+
+            <p>
+                <input type="tel" class="tel" placeholder="Tél" name="tel">
+            </p>
+
+        </fieldset>
+
+        <fieldset>
+
+            <legend>RDV</legend>
+
+            <p>
+                <input type="date" class="date" name="date">
+            </p>
+
+            <p>
+                <label for="heure">Heure</label> <br>
+
+                <select name="heure" id="heure">
+                    <option value="9H00">9H00</option>
+                    <option value="10H00">10H00</option>
+                    <option value="11H00">11H00</option>
+                    <option value="12H00">12H00</option>
+                    <option value="13H00">13H00</option>
+                    <option value="14H00">14H00</option>
+                    <option value="15H00">15H00</option>
+                    <option value="16H00">16H00</option>
+                    <option value="17H00">17H00</option>
+                </select>
+            </p>
+
+            <p>
+                <label for="Intervenante">Intervenante</label><br>
+                <input type="radio" name="Intervenante" checked value="Céline">Céline
+                <input type="radio" name="Intervenante" value="Marie">Marie
+                <input type="radio" name="Intervenante" value="Lucile">Lucile
+            </p>
+
+        </fieldset>
+
+        <p>
+            <input type="submit" value="Entrer le RDV">
+        </p>
+
+    </form>
+</body>
+
+</html>

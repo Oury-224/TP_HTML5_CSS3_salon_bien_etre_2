@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+body {
+    background-color: #3a3a3a;
+    font-family: arial;
+    font-size: 20px;
+    color: #fff;
+}
+
+h2 {
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+}
+
+form {
+    margin: auto;
+    width: 500px;
+}
+
+fieldset {
+    border-radius: 10px;
+    border: 1px solid #adaf0a;
+    margin-bottom: 15px;
+    color: #adaf0a;
+}
+
+legend {
+    color: #adaf0a;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="date"] {
+    width: 85%;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    background-color: #d5d5d5;
+    height: 29px;
+}
+
+input[type="text"]:hover,
+input[type="tel"]:hover,
+input[type="date"]:hover {
+    background-color: #fff;
+}
+
+.nom {
+    background-image: url('img/nom.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 36px;
+}
+
+.tel {
+    background-image: url('img/tel.jpg');
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 36px;
+}
+
+.date {
+    background-image: url('img/date.jpg');
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 36px;
+}
+
+select {
+    width: 50%;
+    height: 30px;
+    border-radius: 25px;
+    border: none;
+    padding-left: 20px;
+    background-color: #d5d5d5;
+}
+
+p {
+    text-align: center;
+}
+
+input[type="submit"] {
+    background-color: #adaf0a;
+    border-radius: 50px;
+    border: none;
+    color: #fff;
+    padding: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #fff;
+    color: #adaf0a;
+}
